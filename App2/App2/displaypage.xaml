@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.displaypage"
+             
+            >
+    <ContentPage.Content>
+        <StackLayout Margin="10, 10, 10, 10" BackgroundColor="#008080">
+            <Label 
+                Text="Its me, Your Modal Page"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+            />
+
+            <Button 
+                x:Name="dismissButton" 
+                Text="close me"
+                Clicked="OnDismissButtonClicked"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
